@@ -4,7 +4,7 @@
   "description": "TBD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/pavlenko-volodymyr/solid/issues"
   },
-  "homepage": "https://github.com/pavlenko-volodymyr/solid#readme"
+  "homepage": "https://github.com/pavlenko-volodymyr/solid#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.3",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6"
+  }
 }
